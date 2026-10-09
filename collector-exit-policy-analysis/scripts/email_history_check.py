@@ -38,7 +38,7 @@ min/max published (or valid-after), consensus hours present / missing, days with
 (same tests (a)-(e), applied to each policy text) and consensus.counts (pol:OUR_POLICY / pol:near-open
 counts of p-line classes per consensus; the loose test and unique fingerprints are n/a there).
 
-Usage (from quetzalcoatl-repro/):
+Usage (from collector-exit-policy-analysis/):
   python3 -I scripts/email_history_check.py --db net/netdb.sqlite --out net/email_history_check.csv \
       --matches net/email_history_check_matches.csv data_history/*.tar.xz
 Writes the CSV (one row per archive month and source) and a matches CSV (first descriptor / consensus
